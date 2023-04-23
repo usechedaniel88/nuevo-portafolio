@@ -154,10 +154,6 @@ const pages = [
 		path: '/',
 	},
 	{
-		title: 'About me',
-		path: '#anchortoexplain',
-	},
-	{
 		title: 'Projets',
 		path: '/projects',
 	},
@@ -243,7 +239,7 @@ function Navtop() {
 									color: 'white',
 									display: 'block',
 									'&:hover': {
-										bgcolor: '#cf2e2e',
+										bgcolor: '#f1a208',
 									},
 								}}
 							>

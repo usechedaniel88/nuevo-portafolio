@@ -1,14 +1,18 @@
 import { height } from '@mui/system'
 import React from 'react'
 import './skillspage.css'
+import { Container, ImageListItem } from '@mui/material'
+import SkillsImage from '../../assets/Images/Coding _Flatline.svg'
 
 type Props = {}
 
 const SkillsPage = (props: Props) => {
   return (
-    <>
-    {/* style={{}} */}
-    <section className="skills" id="skills">
+    <Container>
+        <ImageListItem sx={{width:300, margin:'0 auto', borderRadius:'10px', marginTop:'20px'}} data-aos="fade-left">
+            <img style={{borderRadius:'20px'}} src={SkillsImage} alt="ImageProfile" />
+        </ImageListItem>
+        <section className="skills" id="skills" style={{borderRadius: '20px'}}>
                 <div className="contenido-seccion">
                     <div className="fila">
                         {/* technical skill */}
@@ -94,7 +98,7 @@ const SkillsPage = (props: Props) => {
                                 <span>Responsabilidad</span>
                                 <div className="barra-skill">
                                     <div className="progreso responsabilidad">
-                                        <span>98%</span>
+                                        <span>100%</span>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +106,7 @@ const SkillsPage = (props: Props) => {
                     </div>  
                 </div>
             </section>
-    </>
+    </Container>
   )
 }
 
