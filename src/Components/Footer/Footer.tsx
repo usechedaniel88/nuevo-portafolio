@@ -15,7 +15,7 @@ const Footer = (props: Props) => {
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
-        height: '120px',
+        height: '60px',
         marginTop: '80px',
         gap: '20px',
     }}

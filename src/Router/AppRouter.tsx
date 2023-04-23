@@ -1,8 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from '../Components/Layout/Layout'
-import ContactPage from '../Pages/ContactPage/ContactPage'
+import ProjectsPage from '../Pages/ProjectsPage/ProjectsPage'
 import HomePage from '../Pages/HomePage/HomePage'
+import SkillsPage from '../Pages/SkillsPage/SkillsPage'
 
 type Props = {}
 
@@ -13,7 +14,8 @@ const AppRouter = (props: Props) => {
         <Routes>
             <Route element={<Layout />} >
             <Route path="/" element={<HomePage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/skills" element={<SkillsPage />} />
             </Route>
         </Routes>
     </BrowserRouter>
