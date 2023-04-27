@@ -154,7 +154,7 @@ const pages = [
 		path: '/',
 	},
 	{
-		title: 'Projets',
+		title: 'Projects',
 		path: '/projects',
 	},
     {
