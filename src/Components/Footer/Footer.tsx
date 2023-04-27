@@ -1,9 +1,9 @@
 import { Container, Typography } from '@mui/material'
-import React from 'react'
+// import React from 'react'
 
-type Props = {}
+// type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     // <div>
     //     <p>&copy; Desarrollado por Daniel Useche / 2023</p>

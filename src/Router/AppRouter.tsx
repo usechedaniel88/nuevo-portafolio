@@ -1,13 +1,13 @@
-import React from 'react'
+// import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from '../Components/Layout/Layout'
 import ProjectsPage from '../Pages/ProjectsPage/ProjectsPage'
 import HomePage from '../Pages/HomePage/HomePage'
 import SkillsPage from '../Pages/SkillsPage/SkillsPage'
 
-type Props = {}
+// type Props = {}
 
-const AppRouter = (props: Props) => {
+const AppRouter = () => {
   return (
     <>
     <BrowserRouter>   

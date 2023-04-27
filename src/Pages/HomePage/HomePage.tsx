@@ -1,15 +1,15 @@
-import React from 'react'
+// import React from 'react'
 import ImageProfile from '../../assets/Images/ImageProfile.jpg'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Box, Button, Container, ImageListItem, Typography } from '@mui/material'
+import { Box, Button, Container, ImageListItem,  } from '@mui/material'
 import ChatImage from '../../assets/Images/Chat_Flatline.svg'
 import { Link } from 'react-router-dom';
 
-type Props = {}
+// type Props = {}
 
-const Homepage = (props: Props) => {
+const Homepage = () => {
   return (
     <Container sx={{margin:'0 auto', textAlign: 'center'}}>        
         <h1>Hola soy Daniel Useche</h1>

@@ -1,12 +1,12 @@
-import { height } from '@mui/system'
-import React from 'react'
+// import { height } from '@mui/system'
+// import React from 'react'
 import './skillspage.css'
 import { Container, ImageListItem } from '@mui/material'
 import SkillsImage from '../../assets/Images/Coding _Flatline.svg'
 
-type Props = {}
+// type Props = {}
 
-const SkillsPage = (props: Props) => {
+const SkillsPage = () => {
   return (
     <Container>
         <ImageListItem sx={{width:300, margin:'0 auto', borderRadius:'10px', marginTop:'20px'}} data-aos="fade-left">
