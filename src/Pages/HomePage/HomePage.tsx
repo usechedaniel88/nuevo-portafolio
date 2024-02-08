@@ -22,11 +22,11 @@ const Homepage = () => {
         Junior Full Stack Developer con experiencia como profesor de robótica y programación. Mi pasión por la tecnología surgió tras hacer un gran cambio de vida, así que decidí formarme en desarrollo web full stack para ampliar tanto mis habilidades como conocimientos técnicos, con el principal objetivo de poder aplicarlos en un entorno real de trabajo en el que pueda seguir aprendiendo y desarrollarme profesionalmente. Me gusta trabajar en equipo bajo la metodología agile, soy responsable, comunicativo, adaptable y disciplinado. 
         </p>
       
-        <Button 
+        {/* <Button 
         variant="contained"
         sx={{color:'white !important'}}
         href="https://drive.google.com/file/d/1s0OxnUEwKvRsUMCyM8rbqu4OmBFuFS-T/view?usp=share_link" target="_blank"
-        >Curriculum</Button>
+        >Curriculum</Button> */}
       
         <p>Sigueme a traves de las redes sociales</p>
         <ImageListItem sx={{width:300, margin:'0 auto', borderRadius:'10px', marginTop:'20px'}} data-aos="fade-left">
